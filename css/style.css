@@ -38,7 +38,7 @@ section {
 }
 /* CORRECT THIS UPON FINAL */
 .be-header .container  {
-	background: url('/burt-engineering/img/bg_header.png') right top no-repeat;
+	background: url('/img/bg_header.png') right top no-repeat;
 }
 .be-navbar {
 	background: #111;
@@ -174,19 +174,19 @@ section.closer p {
 /* CORRECT THIS UPON FINAL */
 /*Header Image Divs */
 .be-banner-index {
-	background: url('/burt-engineering/img/house-banner-1170x200.jpg') center top no-repeat;
+	background: url('/img/house-banner-1170x200.jpg') center top no-repeat;
 	height: 200px;
 }
 .be-banner-contact {
-	background: url('/burt-engineering/img/gazebo-banner-1170x200.jpg') center top no-repeat;
+	background: url('/img/gazebo-banner-1170x200.jpg') center top no-repeat;
 	height: 200px;
 }
 .be-banner-owners {
-	background: url('/burt-engineering/img/hoffman-house-banner-mod7-1170x200.jpg') center top no-repeat;
+	background: url('/img/hoffman-house-banner-mod7-1170x200.jpg') center top no-repeat;
 	height: 200px;
 }
 .be-banner-builders {
-	background: url('/burt-engineering/img/construction-banner-mod7-1170x200.jpg') center top no-repeat;
+	background: url('/img/construction-banner-mod7-1170x200.jpg') center top no-repeat;
 	height: 200px;
 }
 .be-banner-owners p, .be-banner-builders p {
