@@ -1,0 +1,305 @@
+body {
+	background: #E6713B;
+	font-family: "ff-dagny-web-pro",sans-serif;
+	font-size: 21px;
+	line-height: 24px;
+}
+p {
+	margin-bottom: 16px;
+}
+h1 {
+	color: #E6713B;
+	font-size: 42px;
+	line-height: 50px;
+	margin-bottom: 0;
+}
+address {
+	font-size: 18px;
+	color: #08C;
+}
+h2, h3 {
+	text-align: center;
+}
+h2 {
+	font-size: 32px;
+}
+h3 {
+	font-size: 32px;
+	text-rendering: auto;
+	text-transform: lowercase;
+	font-variant: small-caps;
+}
+section {
+	margin-bottom: 40px;
+}
+.be-header {
+	background-color: white;
+	height: 100px;
+}
+/* CORRECT THIS UPON FINAL */
+.be-header .container  {
+	background: url('/burt-engineering/img/bg_header.png') right top no-repeat;
+}
+.be-navbar {
+	background: #111;
+}
+.be-navbar a {
+	line-height: 28px;
+	font-size: 18px;
+	text-align: center;
+	width: 100%;
+	display: inline-block;
+	color: white;
+	padding: 10px 0;
+}
+.be-navbar a:hover {
+	color: white;
+	background: #777;
+	text-decoration: none;
+}
+.be-navbar a:active, .be-navbar .active a {
+	color: white;
+	background: #777;
+	text-decoration: none;
+}
+.be-content .container {
+	background: white;
+	padding-bottom: 60px;
+}
+.be-footer {
+	height: 48px;
+	background: #777;
+}
+
+.be-index-letter {
+	padding: 30px 0 30px 0;
+	font-size: 21px;
+	line-height: 27px;
+	font-family: "ff-meta-serif-web-pro",serif;
+	font-style: italic;
+}
+.be-index-letter p {
+	margin-bottom: 30px;
+}
+.be-index-photo {
+	text-align: justify;
+}
+.be-index-photo img, .be-index-closer img {
+	display: inline-block;
+	vertical-align: middle;
+	width: 27%;
+}
+.be-index-photo p, .be-index-closer p {
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 16px;
+	line-height: 22px;
+	margin: 0 0 0 3%;
+	width: 64%;
+}
+.be-index-closer {
+	margin-top: 60px;
+	margin-bottom: 0;
+}
+.be-index-closer p {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.be-sidebar {
+	position: relative;
+}
+.be-sidebar ul {
+	text-align:right;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	width:inherit;
+}
+.be-sidebar li {
+	width:inherit;
+}
+.be-sidebar a {
+	display:block;
+	width:80%;
+	padding:12px 10%;
+	font-size: 18px;
+}
+.be-sidebar ul li a:hover {
+	background: #777;
+	color: white;
+}
+.be-sidebar ul li a:active, .be-sidebar ul li.active a {
+	background: #E6713B;
+	color: white;
+}
+.be-sidebar > .affix-top {
+	position: absolute;
+}
+.be-sidebar > .affix {
+	top: 30px;
+}
+section div > a {
+	margin-bottom: 16px;
+}
+span.be-location {
+	text-rendering: auto;
+	text-transform: lowercase;
+	font-variant: small-caps;
+}
+section.closer {
+	margin-bottom: 0;
+}
+section.closer p {
+	margin: 0;
+	font-style: italic;
+}
+
+.be-contact-area {
+	margin-top: 60px;
+}
+.be-contact-area p {
+	margin-bottom: 40px;
+}
+.be-contact-area label, .be-contact-area button {
+	text-transform: uppercase;
+}
+.be-contact-area label, .be-contact-area button, .be-contact-area input, .be-contact-area textarea {
+	font-family: "ff-dagny-web-pro",sans-serif;
+}
+#message-form {
+	padding-top: 39px;
+}
+
+/* CORRECT THIS UPON FINAL */
+/*Header Image Divs */
+.be-banner-index {
+	background: url('/burt-engineering/img/house-banner-1170x200.jpg') center top no-repeat;
+	height: 200px;
+}
+.be-banner-contact {
+	background: url('/burt-engineering/img/gazebo-banner-1170x200.jpg') center top no-repeat;
+	height: 200px;
+}
+.be-banner-owners {
+	background: url('/burt-engineering/img/hoffman-house-banner-mod7-1170x200.jpg') center top no-repeat;
+	height: 200px;
+}
+.be-banner-builders {
+	background: url('/burt-engineering/img/construction-banner-mod7-1170x200.jpg') center top no-repeat;
+	height: 200px;
+}
+.be-banner-owners p, .be-banner-builders p {
+	width: 60%;
+	margin: 48px 20% 0;
+	font-style: italic;
+}
+
+.oburt-work {
+	color: white;
+	text-align: right;
+	margin: 20px 20px 0 0;
+}
+
+
+/* Responsive Design */
+/* Medium desktop */
+@media (min-width: 980px) and (max-width: 1199px) {
+	.be-index-photo p, .be-index-closer p {
+		line-height: 20px;
+	}
+	.be-banner-owners p, .be-banner-builders p {
+		margin-top: 30px;
+	}
+}
+ 
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+	body {
+		font-size: 18px;
+		line-height: 21px;
+	}
+	h1 {
+		font-size: 37px;
+	}
+	h2, h3 {
+		font-size: 28px;
+		line-height: 36px;
+	}
+	address {
+		font-size: 17px;
+	}
+	.be-navbar a, .be-sidebar a {
+		font-size: 16px;
+	}
+	.be-index-letter {
+		font-size: 18px;
+		line-height: 24px
+	}
+	.be-index-photo p, .be-index-closer p {
+		font-size: 12px;
+		line-height: 16px;
+	}
+	.be-banner-owners p, .be-banner-builders p {
+		margin-top: 38px;
+	}
+	.be-contact-area textarea.span5 {
+		width: 206px;
+	}
+}
+ 
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+	body {
+		font-size: 16px;
+		line-height: 18px;
+	}
+	h1 {
+		font-size: 32px;
+	}
+	h2, h3 {
+		font-size: 24px;
+		line-height: 32px;
+	}
+	address {
+		font-size: 14px;
+	}
+	h1, address {
+		text-align: center;
+	}
+	.be-navbar a, .be-sidebar a {
+		font-size: 16px;
+	}
+	.be-index-letter {
+		font-size: 15px;
+		line-height: 21px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+	.be-index-photo p, .be-index-closer p {
+		font-size: 12px;
+		line-height: 16px;
+	}
+	.be-banner-owners p, .be-banner-builders p {
+		margin: 0;
+		width: auto;
+		padding: 7% 5%;
+	}
+	.be-contact-area {
+		margin-top: 40px;
+	}
+	.be-contact-area textarea.span5 {
+		width: 220px;
+	}
+	p, section.closer p {
+		margin-left: 5%;
+		margin-right: 5%;
+	}
+}
+
+@media (max-width: 480px) {
+	.be-index-photo p, .be-index-closer p {
+		font-size: 11px;
+		line-height: 14px;
+	}
+}
