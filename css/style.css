@@ -50,7 +50,7 @@ section {
 }
 .be-logo {
 	height: 80px;
-	width: 100px;
+	width: auto;
 	margin: 10px 0;
 }
 .be-navbar {
