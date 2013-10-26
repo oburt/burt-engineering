@@ -44,28 +44,29 @@ section {
 	height: 100%;
 	position: relative;
 }
-.be-contact {
+.be-callout {
 	position: absolute;
 	right: 0;
 	bottom: 10px;
 	background-color: #00427B;
 	border-radius: 5px;
 	color: #ffffff;
+	font-size: 15px;
 	padding: 6px 16px;
 }
-.be-contact a,
-.be-contact a:hover,
-.be-contact a:link,
-.be-contact a:visited {
+.be-callout a,
+.be-callout a:hover,
+.be-callout a:link,
+.be-callout a:visited {
 	color: #ffffff;
 }
-.be-contact-pip {
+.be-callout-pip {
 	position: absolute;
-	right: 12.5%%;
-	bottom: -5px;
+	right: 11%;
+	bottom: -3px;
 	height: 0;
 	width: 0;
-	border: 5px solid #00427B;
+	border: 7px solid #00427B;
 	border-right-color: transparent;
 	border-left-color: transparent;
 	border-bottom-color: transparent;
@@ -301,6 +302,12 @@ section.closer p {
 	}
 	h1, address {
 		text-align: center;
+	}
+	.be-callout {
+
+	}
+	.be-callout-pip {
+		display: none;
 	}
 	.be-navbar a, .be-sidebar a {
 		font-size: 16px;
