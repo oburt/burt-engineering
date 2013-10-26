@@ -72,8 +72,8 @@ section {
 	border-bottom-color: transparent;
 }
 .be-logo {
-	height: 80px;
-	width: auto;
+	max-height: 80px;
+	max-width: 100%;
 	margin: 10px 0;
 }
 .be-navbar {
@@ -304,7 +304,14 @@ section.closer p {
 		text-align: center;
 	}
 	.be-callout {
-
+		width: auto;
+		padding: 6px 0;
+		border-radius: 0px;
+		font-size: 13px;
+		line-height: 17px;
+		position: relative;
+		margin-left: 12px;
+		margin-right: 12px;
 	}
 	.be-callout-pip {
 		display: none;
