@@ -44,10 +44,31 @@ section {
 	height: 100%;
 	position: relative;
 }
-.be-header address {
+.be-contact {
 	position: absolute;
 	right: 0;
-	bottom: 5px;
+	bottom: 10px;
+	background-color: #00427B;
+	border-radius: 5px;
+	color: #ffffff;
+	padding: 6px 16px;
+}
+.be-contact a,
+.be-contact a:hover,
+.be-contact a:link,
+.be-contact a:visited {
+	color: #ffffff;
+}
+.be-contact-pip {
+	position: absolute;
+	right: 12.5%%;
+	bottom: -5px;
+	height: 0;
+	width: 0;
+	border: 5px solid #00427B;
+	border-right-color: transparent;
+	border-left-color: transparent;
+	border-bottom-color: transparent;
 }
 .be-logo {
 	height: 80px;
