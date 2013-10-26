@@ -1,6 +1,6 @@
 body {
 	background: #E6713B;
-	font-family: "ff-dagny-web-pro",sans-serif;
+	font-family: "franklin-gothic-urw-cond",sans-serif;
 	font-size: 21px;
 	line-height: 24px;
 }
@@ -16,6 +16,7 @@ h1 {
 address {
 	font-size: 18px;
 	color: #08C;
+	margin: 0;
 }
 h2, h3 {
 	text-align: center;
@@ -39,6 +40,12 @@ section {
 /* CORRECT THIS UPON FINAL */
 .be-header .container  {
 	background: url('/img/bg_header.png') right top no-repeat;
+	height: 100%;
+}
+.be-header address {
+	position: absolute;
+	right: 0;
+	bottom: 5px;
 }
 .be-navbar {
 	background: #111;
@@ -165,7 +172,7 @@ section.closer p {
 	text-transform: uppercase;
 }
 .be-contact-area label, .be-contact-area button, .be-contact-area input, .be-contact-area textarea {
-	font-family: "ff-dagny-web-pro",sans-serif;
+	font-family: "franklin-gothic-urw-cond",sans-serif;
 }
 #message-form {
 	padding-top: 39px;
