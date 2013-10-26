@@ -303,6 +303,10 @@ section.closer p {
 	h1, address {
 		text-align: center;
 	}
+	.be-logo {
+		margin: 4px 0 14px;
+		height: 60px;
+	}
 	.be-callout {
 		width: auto;
 		padding: 6px 0;
