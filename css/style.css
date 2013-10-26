@@ -1,5 +1,6 @@
 body {
-	background: #E6713B;
+	background: #F36F21;
+	/*color: #00427B;*/
 	font-family: "franklin-gothic-urw-cond",sans-serif;
 	font-size: 21px;
 	line-height: 24px;
@@ -8,7 +9,7 @@ p {
 	margin-bottom: 16px;
 }
 h1 {
-	color: #E6713B;
+	color: #F36F21;
 	font-size: 42px;
 	line-height: 50px;
 	margin-bottom: 0;
@@ -143,7 +144,7 @@ section {
 	color: white;
 }
 .be-sidebar ul li a:active, .be-sidebar ul li.active a {
-	background: #E6713B;
+	background: #F36F21;
 	color: white;
 }
 .be-sidebar > .affix-top {
